@@ -5,6 +5,8 @@
  * @author Bojan Djuricic (@Toorshia)
  **/
 
+import Raphael from 'raphael';
+
 JustGage = function(config) {
 
   var obj = this;

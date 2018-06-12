@@ -1,5 +1,5 @@
 {
-  "name": "justgage",
+  "name": "webpack-justgage",
   "version": "1.2.2",
   "description": "JustGage is a handy JavaScript plugin for generating and animating nice & clean gauges. It is based on Raphaël library for vector drawing, so it’s completely resolution independent and self-adjusting.",
   "main": "justgage.js",
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/toorshia/justgage/issues"
   },
-  "homepage": "https://github.com/toorshia/justgage"
+  "homepage": "https://github.com/toorshia/justgage",
+  "dependencies": {
+    "webpack-raphael": "^2.1.4"
+  }
 }
