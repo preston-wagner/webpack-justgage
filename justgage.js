@@ -5,7 +5,7 @@
  * @author Bojan Djuricic (@Toorshia)
  **/
 
-import Raphael from 'raphael';
+import Raphael from 'webpack-raphael';
 
 JustGage = function(config) {
 
