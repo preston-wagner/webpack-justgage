@@ -6,8 +6,9 @@
  **/
 
 import Raphael from 'webpack-raphael';
+import eve from 'eve';
 
-JustGage = function(config) {
+var JustGage = function(config) {
 
   var obj = this;
 
@@ -1180,3 +1181,5 @@ function extend(out) {
 
   return out;
 };
+
+export default JustGage;
